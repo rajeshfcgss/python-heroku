@@ -7,7 +7,7 @@ message = ""
 time_min ='' 
 time_hour =''
 
-@app.route('/', methods=['GET',"POST"])
+@app.route('/home', methods=['GET',"POST"])
 
 def home():
     if request.method == "POST":
